@@ -1,0 +1,304 @@
+body{
+	background-color : #f2f2f2;
+}
+
+.top{
+	display : flex;
+	flex-direction : row;
+	box-shadow: 10px 10px 5px grey;
+	height : 100px;
+}
+
+.first{
+	flex : 0 0 400px;
+}
+
+.second{
+	flex : 1 0 300px;
+	position : relative;
+}
+
+.second select{
+	position : absolute;
+	top : 39px;
+	left : 15px;
+	width : 200px;
+	border : solid 2px black;
+	font-weight : bold;
+	font-family : arial;
+	background-color : white;
+	padding : 3px;
+	border-radius : 3px;
+}
+
+.third{
+	flex : 2 0 300px;
+	display : flex;
+	flex-direction : row;
+}
+
+.search{
+	flex : 1 0 100px;
+	position : relative;
+}
+
+.search input{
+	position : absolute;
+	top : 39px;
+	left : 15px;
+}
+
+input[type=text]{
+	border : solid 2px black;
+	font-weight : bold;
+	font-family : arial;
+	background-color : white;
+	padding : 3px;
+	border-radius : 3px;
+}
+
+.signin{
+	flex : 0 0 100px;
+	position : relative;
+}
+
+.signin button{
+	position : absolute;
+	top : 40px;
+	left : 25px;
+}
+
+.sign{
+	border : solid 2px black;
+	font-weight : bold;
+	font-family : arial;
+	background-color : white;
+	padding : 3px;
+	border-radius : 3px;
+}
+
+.signup{
+	flex : 1 0 100px;
+	position : relative;
+}
+
+.signup button{
+	position : absolute;
+	top : 40px;
+	left : 30px;
+}
+
+.create{
+	border : solid 2px black;
+	font-weight : bold;
+	font-family : arial;
+	background-color : white;
+	padding : 3px;
+	border-radius : 3px;
+}
+
+.bottom{
+	height : 950px;
+}
+
+.center{
+	margin : auto;
+	margin-top : 100px;
+	box-shadow : 0px 0px 5px grey;	
+	width : 700px;
+	display : flex;
+	flex-direction : column;
+	box-shadow : 5px black;
+}
+
+.zero_1{
+	flex : 0 0 50px;
+	
+}
+
+.zero_1 p{
+	font-weight : bold;
+	margin : 0;
+	margin-top : 15px;
+	margin-left : 10px;
+	font-family : courier;
+	font-size : 20px;
+}
+
+.first_1{
+	flex : 0 0 300px;
+	display : flex;
+	flex-direction : column;
+}
+
+.menu{
+	flex : 1 0 110px;
+	display : flex;
+	flex-direction : row;
+	border-top : dotted 2px lightgrey;
+	justify-content : space-evenly;
+}
+
+.menu1{
+	height : 180px;
+	flex : 0 0 250px;
+	margin-top : 20px;
+	display : flex;
+	flex-direction : column;
+}
+
+.food1{
+	flex : 1 0 100px;	
+}
+
+.img1{
+	height : 100%;
+	width : 100%;
+}
+
+.name1{
+	flex : 0 0 20px;
+	
+}	
+
+.name1 p{
+	margin : 0;
+	font-weight : bold;
+	text-align : center;
+}
+
+.menu2{
+	height : 180px;
+	flex : 0 0 250px;
+	margin-top : 20px;
+	display : flex;
+	flex-direction : column;
+}
+
+.food2{
+	flex : 1 0 100px;
+}
+
+.name2{
+	flex : 0 0 20px;
+	
+}
+
+.name2 p{
+	margin : 0;
+	font-weight : bold;
+	text-align : center;
+}
+
+.img2{
+	height : 100%;
+	width : 100%;
+}
+
+.switch{
+	flex : 0 0 70px;
+
+	display : flex;
+	justify-content : space-evenly;
+}
+
+.switch button{
+	width : 150px;
+	padding : 4px;
+	border : solid 2px black;
+	border-radius : 3px;
+	font-weight : bold;
+	font-family : arial;
+	background-color : white;
+	margin-top : 20px;
+}	
+
+.second_1{
+	flex : 0 0 350px;
+	border : solid 2px black;
+}
+
+.third_1{
+	flex : 0 0 200px;
+	
+	display : flex;
+	flex-direction : row;
+}
+
+.quotes{
+	flex : 1 0 100px;
+	display : flex;
+	flex-direction : column;
+}
+
+.first_2{
+	flex : 1 0 100px;
+}
+
+.first_2 p{
+	font-weight : bold;
+	font-size : 25px;
+	padding-left : 20px;
+	margin-top : 50px;
+	font-family : arial;
+}
+	
+
+.second_2{
+	flex : 1 0 50px;
+}
+
+.second_2 p{
+	font-weight : bold;
+	font-family : courier;
+	padding-left : 5px;
+	color : grey;
+}
+
+.second_2 span{
+	font-size : 20px;
+}
+
+.awards{
+	flex : 1 0 100px;
+}
+
+.fourth_1{
+	flex : 0 0 80px;
+	display : flex;
+	flex-direction : row;
+	background-color : black;
+}
+
+.name{
+	flex : 1 0 100px;
+}
+
+.name h2{
+	font-weight : bold;
+	font-family : arial;
+	padding-left : 20px;
+	color : white;
+	font-size : 30px;
+}
+
+.logo{
+	flex : 1 0 100px;
+	position : relative;
+}
+
+.fb{
+	height : 40%;
+	width : 15%;
+	position : absolute;
+	top : 25px;
+	right : 110px;
+}
+
+.tweet{
+	height : 40%;
+	width : 15%;
+	position : absolute;
+	top : 25px;
+	right : 40px;
+}
