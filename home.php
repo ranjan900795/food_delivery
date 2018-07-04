@@ -54,14 +54,16 @@
 					</div>
 					<div class="switch">
 						<div class="Previous">
-							<button class="prev">Previous</button>
+							<button class="prev prev1">Previous</button>
 						</div>
 						<div class="Next">
-							<button class="nex">Next</button>
+							<button class="nex nex1">Next</button>
 						</div>
 					</div>
 				</div>
 				<div class="second_1">
+					<div class="restrau_stats">
+					</div>
 				</div>
 				<div class="third_1">
 					<div class="quotes">
@@ -73,6 +75,7 @@
 						</div>
 					</div>
 					<div class="awards">
+						<img class="award" src="img/Award.jpg"/>
 					</div>
 				</div>
 				<div class="fourth_1">
