@@ -6,6 +6,12 @@
 	<body>
 		<div class="top">
 			<div class="first">
+				<div class="pagelogo">
+					<img class="pagelogo" src="img/logo.jpg"/>
+				</div>
+				<div class="heading">
+					<h1 class="main_head">Grab Swipe Serve</h1>
+				</div>
 			</div>
 			<div class="second">
 				<select name="Location" Select Your Area>
@@ -31,7 +37,7 @@
 		<div class="bottom">
 			<div class="center">
 				<div class="zero_1">
-					<p>5 Restaurants....</p>
+					<p>Indian And continental Restaurants....</p>
 				</div>
 				<div class="first_1">
 					<div class="menu">
@@ -40,7 +46,7 @@
 									<img class="img1" src="img/kaleidoscope.jpeg"/>
 							</div>
 							<div class="name1">
-								<p>Kaleidoscope Multicuisine</p>
+								<p class="hotel1">Kaleidoscope Multicuisine</p>
 							</div>
 						</div>
 						<div class="menu2">
@@ -48,21 +54,50 @@
 								<img class="img2" src="img/rangde.jpeg"/>
 							</div>
 							<div class="name2">
-								<p>Rang De Basanti Dhaba</p>
+								<p class="hotel2">Rang De Basanti Dhaba</p>
 							</div>						
 						</div>
 					</div>
 					<div class="switch">
 						<div class="Previous">
-							<button class="prev prev1">Previous</button>
+							<button class="prev">Previous</button>
 						</div>
 						<div class="Next">
-							<button class="nex nex1">Next</button>
+							<button class="nex">Next</button>
 						</div>
 					</div>
 				</div>
 				<div class="second_1">
 					<div class="restrau_stats">
+						<p>Italian And Desserts.....</p>
+					</div>
+					<div class="restrau_1">
+						<div class="menu_">
+							<div class="menu_1">
+								<div class="food_1">
+										<img class="img_1" src="img/baskin.jpeg"/>
+								</div>
+								<div class="name_1">
+									<p class="hotel_1">Baskin Robbins</p>
+								</div>							
+							</div>
+							<div class="menu_2">
+								<div class="food_2">
+									<img class="img_2" src="img/cream.jpeg"/>
+								</div>
+								<div class="name_2">
+									<p class="hotel_2">The Cream And Fudge Factory</p>
+								</div>
+							</div>
+						</div>
+						<div class="switch_">
+							<div class="Previous_">
+								<button class="prev_">Previous</button>
+							</div>
+							<div class="Next_">
+								<button class="nex_">Next</button>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="third_1">
@@ -89,6 +124,7 @@
 				</div>
 			</div>
 		</div>
+		<script src="js/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>

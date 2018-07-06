@@ -1,20 +1,48 @@
 body{
-	background-color : #f2f2f2;
+	background-color : #d1fbce;
 }
 
 .top{
 	display : flex;
 	flex-direction : row;
-	box-shadow: 10px 10px 5px grey;
+	box-shadow: 10px 10px 30px #cb3b3b;
 	height : 100px;
 	position : fixed;
 	top : 0px;
 	width : 100%;
-	background-color : #f2f2f2;
+	background-color : white;
 }
 
 .first{
 	flex : 0 0 400px;
+	display : flex;
+	flex-direction : row;
+}
+
+.pagelogo{
+	flex : 0 0 100px;
+	
+}
+
+.pagelogo{
+	width : 100%;
+	height : 100%;
+	transform : scale(1.3	);
+	transform-origin: top left;
+}
+
+.heading{
+	flex : 1 0 100px;
+}
+
+.main_head{
+	font-weight : bold;
+	margin : 0;
+	margin-left : 80px;
+	margin-top : 40px;
+	font-size : 22.5px;
+	font-family : courier;
+	color : #cb3b3b;
 }
 
 .second{
@@ -27,7 +55,7 @@ body{
 	top : 39px;
 	left : 15px;
 	width : 200px;
-	border : solid 2px black;
+	border : solid 2px #cb3b3b;
 	font-weight : bold;
 	font-family : arial;
 	background-color : white;
@@ -53,7 +81,7 @@ body{
 }
 
 input[type=text]{
-	border : solid 2px black;
+	border : solid 2px #cb3b3b;
 	font-weight : bold;
 	font-family : arial;
 	background-color : white;
@@ -73,7 +101,7 @@ input[type=text]{
 }
 
 .sign{
-	border : solid 2px black;
+	border : solid 2px #cb3b3b;
 	font-weight : bold;
 	font-family : arial;
 	background-color : white;
@@ -93,7 +121,7 @@ input[type=text]{
 }
 
 .create{
-	border : solid 2px black;
+	border : solid 2px #cb3b3b;
 	font-weight : bold;
 	font-family : arial;
 	background-color : white;
@@ -108,16 +136,17 @@ input[type=text]{
 .center{
 	margin : auto;
 	margin-top : 150px;
-	box-shadow : 0px 0px 5px grey;	
+	box-shadow : 0px 0px 10px blue;	
 	width : 700px;
 	display : flex;
 	flex-direction : column;
-	box-shadow : 5px black;
+	box-shadow : 10px blue;
+	background-color : #fee3ba;
 }
 
 .zero_1{
 	flex : 0 0 50px;
-	
+	background-color : #f37e7e;
 }
 
 .zero_1 p{
@@ -158,6 +187,7 @@ input[type=text]{
 .img1{
 	height : 100%;
 	width : 100%;
+	border-radius : 10px;
 }
 
 .name1{
@@ -185,7 +215,6 @@ input[type=text]{
 
 .name2{
 	flex : 0 0 20px;
-	
 }
 
 .name2 p{
@@ -197,6 +226,7 @@ input[type=text]{
 .img2{
 	height : 100%;
 	width : 100%;
+	border-radius : 10px;
 }
 
 .switch{
@@ -213,21 +243,120 @@ input[type=text]{
 	border-radius : 3px;
 	font-weight : bold;
 	font-family : arial;
-	background-color : white;
+	background-color : #f37e7e;
 	margin-top : 20px;
+	border-radius : 10px;
 }	
 
 .second_1{
 	flex : 0 0 350px;
-	border-bottom : dotted 2px lightgrey;
+	
+	display : flex;
+	flex-direction : column;
 }
 
 .restrau_stats{
-	margin : auto;
+	flex : 0 0 50px;
+	background-color : #f37e7e;	
+}
+
+.restrau_stats p{
+	font-weight : bold;
+	font-family : courier;
+	font-size : 20px;
+	margin : 0;
+	margin-top : 15px;
+	margin-left : 10px;
+}
+
+.restrau_1{
+	flex : 0 0 300px;
+	display : flex;
+	flex-direction : column;
+}
+
+.menu_{
+	flex : 1 0 110px;
+	display : flex;
+	flex-direction : row;
+	
+	justify-content : space-evenly;
+}
+
+.menu_1{
+	height : 180px;
+	flex : 0 0 250px;
+	margin-top : 20px;
+	display : flex;
+	flex-direction : column;
+}
+
+.food_1{
+	flex : 1 0 100px;	
+}
+
+.img_1{
+	height : 100%;
+	width : 100%;
+	border-radius : 10px;
+}
+
+.name_1{
+	flex : 0 0 20px;
+	
+}	
+
+.name_1 p{
+	margin : 0;
+	font-weight : bold;
+	text-align : center;
+}
+
+.menu_2{
+	height : 180px;
+	flex : 0 0 250px;
+	margin-top : 20px;
+	display : flex;
+	flex-direction : column;
+}
+
+.food_2{
+	flex : 1 0 100px;
+}
+
+.name_2{
+	flex : 0 0 20px;
+}
+
+.name_2 p{
+	margin : 0;
+	font-weight : bold;
+	text-align : center;
+}
+
+.img_2{
+	height : 100%;
+	width : 100%;
+	border-radius : 10px;
+}
+
+.switch_{
+	flex : 0 0 70px;
+	
+	display : flex;
+	justify-content : space-evenly;
+}
+
+.switch_ button{
+	width : 150px;
+	padding : 4px;
 	border : solid 2px black;
-	width : 550px;
-	height : 300px;
-	margin-top : 20px;	
+	border-radius : 3px;
+	font-weight : bold;
+	font-family : arial;
+	background-color : #f37e7e;
+	margin-top : 20px;
+	border-radius : 10px;
 }
 
 .third_1{
@@ -280,6 +409,7 @@ input[type=text]{
 	width : 90%;
 	margin-left : 20px;
 	margin-top : 10px;
+	border : solid 2px black;
 }
 
 .fourth_1{
