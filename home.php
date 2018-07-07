@@ -7,25 +7,16 @@
 		<div class="top">
 			<div class="first">
 				<div class="pagelogo">
-					<img class="pagelogo" src="img/logo.jpg"/>
+					<img class="mainlogo" src="img/logo.jpg"/>
 				</div>
 				<div class="heading">
 					<h1 class="main_head">Grab Swipe Serve</h1>
 				</div>
 			</div>
 			<div class="second">
-				<select name="Location" Select Your Area>
-					<option value="" disabled selected>Select Your Area</option>
-  					<option value="Parnasree">Parnasree</option>
-					<option value="New Town">New Town</option>
-					<option value="Park Street">Park Street</option>
-					<option value="Kalikapur">Kalikapur</option>
-				</select>
+				<input type="text" placeholder="Search Restaurants">
 			</div>
 			<div class="third">
-				<div class="search">
-					<input type="text" placeholder="Search for restaurants..">
-				</div>
 				<div class="signin">
 					<button class="sign">Sign In</button>
 				</div>
