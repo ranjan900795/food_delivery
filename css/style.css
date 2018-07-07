@@ -48,6 +48,10 @@ body{
 	color : black;
 }
 
+.main_head span{
+	color : maroon;
+}
+
 .second{
 	flex : 0 0 550px;
 	position : relative;

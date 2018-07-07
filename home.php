@@ -10,7 +10,7 @@
 					<img class="mainlogo" src="img/logo.jpg"/>
 				</div>
 				<div class="heading">
-					<h1 class="main_head">Grab Swipe Serve</h1>
+					<h1 class="main_head"><span>G</span>rab <span>S</span>wipe <span>S</span>erve</h1>
 				</div>
 			</div>
 			<div class="second">
