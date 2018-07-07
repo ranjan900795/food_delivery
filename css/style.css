@@ -60,7 +60,7 @@ body{
 input[type=text]{
 	position : absolute;
 	top : 40px;
-	left : 65px;
+	left : 48px;
 	border : solid 2px black;
 	font-weight : bold;
 	font-family : courier;
