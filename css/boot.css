@@ -10,6 +10,14 @@
     border-right : solid 2px black;
 }
 
+.h1{
+    font-size: 80px;
+    padding-left: 15px;
+    font-family: courier;
+    text-align: center;
+    color:#e6edf3;
+}
+
 .col{
     background-color: #9c9ea0;
     padding: 20px;

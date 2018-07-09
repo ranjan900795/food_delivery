@@ -1,0 +1,11 @@
+body{
+    background-image:url("../img/pizza.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+
+.middle{
+    box-shadow: 20px;
+}
+
