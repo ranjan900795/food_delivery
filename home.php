@@ -34,7 +34,7 @@
 					<div class="menu">
 						<div class="menu1">
 							<div class="food1">
-									<img class="img1" src="img/kaleidoscope.jpeg"/>
+								<img class="img1" src="img/kaleidoscope.jpeg"/>
 							</div>
 							<div class="name1">
 								<p class="hotel1">Kaleidoscope Multicuisine</p>

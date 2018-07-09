@@ -16,115 +16,138 @@ function changecontent( )
 
 $(document).ready(function() {
 
-$('.name1').mouseover(function() {
-    $(this).css("cursor", "pointer");
-    $(this).css("transform","scale(1.5)");
-    $(this).css("color","blue");
-});
+    $('.name1').mouseover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).css("transform","scale(1.5)");
+        $(this).css("color","blue");
+    });
 
-$('.name1').mouseout(function() {
-    $(this).css("transform","scale(1)");
-	$(this).css("color","black");
-});
+    $('.name1').mouseout(function() {
+        $(this).css("transform","scale(1)");
+	    $(this).css("color","black");
+    });
 
-$('.name2').mouseover(function() {
-    $(this).css("cursor", "pointer");
-    $(this).css("transform","scale(1.5)");
-    $(this).css("color","blue");
-});
+    $('.name2').mouseover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).css("transform","scale(1.5)");
+        $(this).css("color","blue");
+    });
 
-$('.name2').mouseout(function() {
-    $(this).css("transform","scale(1)");
-	$(this).css("color","black");
-});
+    $('.name2').mouseout(function() {
+        $(this).css("transform","scale(1)");
+	    $(this).css("color","black");
+    });
 
-$('.name_1').mouseover(function() {
-    $(this).css("cursor", "pointer");
-    $(this).css("transform","scale(1.5)");
-    $(this).css("color","blue");
-});
+    $('.name_1').mouseover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).css("transform","scale(1.5)");
+        $(this).css("color","blue");
+    });
 
-$('.name_1').mouseout(function() {
-    $(this).css("transform","scale(1)");
-	$(this).css("color","black");
-});
+    $('.name_1').mouseout(function() {
+        $(this).css("transform","scale(1)");
+	    $(this).css("color","black");
+    });
 
-$('.name_2').mouseover(function() {
-    $(this).css("cursor", "pointer");
-    $(this).css("transform","scale(1.5)");
-    $(this).css("color","blue");
-});
+    $('.name_2').mouseover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).css("transform","scale(1.5)");
+        $(this).css("color","blue");
+    });
 
-$('.name_2').mouseout(function() {
-    $(this).css("transform","scale(1)");
-	$(this).css("color","black");
-});
+    $('.name_2').mouseout(function() {
+        $(this).css("transform","scale(1)");
+	    $(this).css("color","black");
+    });
 
-var count=0;
-var restrau = ["img/kaleidoscope.jpeg","img/rangde.jpeg","img/kasturi.jpeg","img/panasia.jpeg"];
+    var j=0;
+    var k=1;
+    var restrau = ["img/kaleidoscope.jpeg","img/rangde.jpeg","img/kasturi.jpeg","img/panasia.jpeg"];
+    var hotel_name = ["Kaleidoscope", "Rang De Basanti Dhaba" , "Kasturi Restaurant" , "The Palm - Pan Asia"];
 
+    $('.nex').click(function () {
+        
+        if(j!=3){
+            j=j+1;
+        }else{
+            j=0;
+        }
+        if(k!=3){
+	        k=k+1;
+	    }else{
+	        k=0;
+	    }    
+	    $('.img1').attr('src', restrau[j]);
+	    $('.img2').attr('src', restrau[k]);
+	    $('.hotel1').html(hotel_name[j]);
+        $('.hotel2').html(hotel_name[k]);
+    });
+    
+    
+    $('.prev').click(function () {
+        
+        if(j==0){
+            j=4;
+	    }
+	    
+	    if(k==0){
+            k=4;
+	    }
+	    
+        j=j-1;
+	    k=k-1;
+	    
+	    $('.img1').attr('src', restrau[j]);
+	    $('.img2').attr('src', restrau[k]);
+	    $('.hotel1').html(hotel_name[j]);
+        $('.hotel2').html(hotel_name[k]); 	
+	    	    
+    });
+    
+    var l=0;
+    var m=1;
+    var restrau_dessert = ["img/cream.jpeg","img/bikers.jpeg","img/baskin.jpeg"];
+    var hotel_name1 = ["The Biker's Cafe", "The Cream And Fudge Factory" , "Baskin Robbins"];
+    var link = ["creamandfudge.php","bikerscafe.php","baskinrobbins.php"];
+	    
+    $('.nex_').click(function () {
+        if(l!=2){
+            l=l+1;
+        }else{
+            l=0;
+        }
+        if(m!=2){
+	        m=m+1;
+	    }else{
+	        m=0;
+	    }    
+                 
+        $('.img_1').attr('src', restrau_dessert[l]);
+        $('.baskinpage').attr('href', link[l]);
+        $('.img_2').attr('src', restrau_dessert[m]); 
+        $('.creampage').attr('href', link[m]);
+        $('.hotel_1').html(hotel_name1[l]);
+        $('.hotel_2').html(hotel_name1[m]); 
+    });
 
-$('.nex').click(function () {
-	if(count==0){
-		$('.img1').attr('src', restrau[1]);
-    	$('.img2').attr('src', restrau[2]);
-    	$('.hotel1').text("Rang De Basanti Dhaba");
-        $('.hotel2').text("Kasturi Restaurant"); 	
-    	count++;
-    }
-    else if(count==1){
-		$('.img1').attr('src', restrau[2]);
-    	$('.img2').attr('src', restrau[3]);
-    	$('.hotel1').text("Kasturi Restaurant");
-        $('.hotel2').text("The Palm - Pan Asia"); 	
-    	count++;
-    }
-});
-
-$('.nex_').click(function () {
-	if(count==0){
-		$('.img_1').attr('src', restrau[1]);
-    	$('.img_2').attr('src', restrau[2]);
-    	$('.hotel_1').text("Rang De Basanti Dhaba");
-        $('.hotel_2').text("Kasturi Restaurant"); 	
-    	count++;
-    }
-    else if(count==1){
-		$('.img_1').attr('src', restrau[2]);
-    	$('.img2').attr('src', restrau[3]);
-    	$('.hotel1').text("Kasturi Restaurant");
-        $('.hotel2').text("The Palm - Pan Asia"); 	
-    	count++;
-    }
-});
-
-
-
-
-
-
-
-$('.nex_').click(function () {
-      $('.img_1').attr('src', 'img/cream.jpeg');
-      $('.baskinpage').attr('href', 'creamandfudge.php');
-      $('.img_2').attr('src', 'img/bikers.jpeg'); 
-      $('.creampage').attr('href', 'bikerscafe.php');
-      $('.hotel_1').text("The Cream And Fudge Factory");
-      $('.hotel_2').text("The Bikers Cafe"); 
-});
-
-$('.prev_').click(function () {
-	$('.img_1').attr('src','img/baskin.jpeg');
-	$('.baskinpage').attr('href', 'baskinrobbins.php');
-	$('.img_2').attr('src','img/cream.jpeg');
-	$('.creampage').attr('href', 'creamandfudge.php');
-    $('.hotel_1').text("Baskin Robbins");
-    $('.hotel_2').text("The Cream And Fudge Factory"); 
-});
-
-
-
-
-
+    $('.prev_').click(function () {
+        
+        if(l==0){
+            l=3;
+	    }
+	    
+	    if(m==0){
+            m=3;
+	    }
+	    
+        l=l-1;
+	    m=m-1;
+	    $('.img_1').attr('src',restrau_dessert[l]);
+	    $('.baskinpage').attr('href', link[l]);
+	    $('.img_2').attr('src',restrau_dessert[m]);
+	    $('.creampage').attr('href', link[m]);
+        $('.hotel_1').html(hotel_name1[l]);
+        $('.hotel_2').text(hotel_name1[m]); 
+    });
 
 });
