@@ -1,0 +1,16 @@
+.container-fluid{
+    margin-top : 170px;
+}
+.row{
+    
+       
+}
+
+.col-8{
+    border-right : solid 2px black;
+}
+
+.col{
+    background-color: #9c9ea0;
+    padding: 20px;
+}
