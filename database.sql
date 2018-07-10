@@ -27,3 +27,7 @@ CREATE TABLE user_orders (
     FOREIGN KEY(user_id) REFERENCES users(id),
     FOREIGN KEY(resturant_id) REFERENCES resturant(id)
 );        
+
+ALTER TABLE users
+	ADD phone_number VARCHAR(255) NOT NULL;
+
