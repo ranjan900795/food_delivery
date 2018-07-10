@@ -1,4 +1,3 @@
-
 var contents = ["Cooking Gone Wrong??","Hungry??","Movie Time??","Unexpected Guests??"];
 var i = 0;
 	

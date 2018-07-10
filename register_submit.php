@@ -24,5 +24,5 @@
     mysqli_close($conn);
 ?>
 
-<a href = "home.php">click here</a>            
+<a href = "dashboard.php">click here</a>            
 
