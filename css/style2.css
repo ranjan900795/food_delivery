@@ -1,0 +1,15 @@
+.left{
+    box-shadow: 0px 0px 10px black;
+}
+
+.img-fluid{
+    height : 40px;
+    width : 40px;
+    margin-top : 10px;
+    margin-left : 50px;
+}
+
+.end{
+    background-color : black;
+}
+

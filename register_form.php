@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel = "stylesheet" href = "css/bootstrap.css">
+        <link rel = "stylesheet" href = "css/boot_regi.css">
+    </head>
+    <body>
+        <div class ="container-fluid">
+            <div class = "row mt-5">
+                <div class ="col-4">
+                </div>
+                <div class ="col-4">
+
+                    <form method="post" action="login_form.php">
+
+                        <div class="form-group">
+                            <label for="exampleInputName1">Name</label>
+                            <input type="text" class="form-control" name="name" id="exampleInputName1" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPhoneNumber1">Number</label>
+                            <input type="number" class="form-control" name="number" id="exampleInputPhoneNumber1" 
+                                   placeholder="Enter Number">    
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone 
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" name="password" 
+                                   placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                        <input type="submit" class="btn btn-success btn-block" name ="submit" value="Submit">
+                    </form>
+
+                </div>
+                <div class="col-4">
+                </div>
+            </div>
+        </div>       

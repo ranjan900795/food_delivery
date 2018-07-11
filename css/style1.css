@@ -1,0 +1,30 @@
+.end{
+    background-color : black;
+}
+
+.img-fluid{
+    height : 40px;
+    width : 40px;
+    margin-top : 10px;
+    margin-left : 50px;
+}
+
+.background{
+    background-image: url('../img/backgroundimage.jpg');
+    background-repeat : no-repeat;
+    background-size : 100% 100%;
+
+}
+
+.bg{
+    background-color : #4a4646;
+}
+
+.bgtop{
+    background-color : #cecece;
+}
+
+.bgtop_1{
+    background-color : #2b140d73; 
+
+}
