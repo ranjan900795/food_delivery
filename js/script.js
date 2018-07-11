@@ -63,8 +63,7 @@ $(document).ready(function() {
     var j=0;
     var k=1;
     var restrau = ["img/kaleidoscope.jpeg","img/rangde.jpeg","img/kasturi.jpeg","img/panasia.jpeg"];
-    var hotel_name = ["Kaleidoscope", "Rang De Basanti Dhaba" , "Kasturi Restaurant" , "The Palm - Pan Asia"];
-    var link = ["kaleidoscope.php","rangde.php","kasturi.php","palmasia.php"];
+    var hotel_name = ['<a href="kaleidoscope.php">Kaleidoscope Multicuisine</a>','<a href="rangde.php">Rang De Basanti</a>','<a href="kasturi.php">Kasturi</a>','<a href="palmasia.php">Palm-Asia</a>'];
 
     $('.nex').click(function () {
         
@@ -79,11 +78,12 @@ $(document).ready(function() {
 	        k=0;
 	    }    
 	    $('.img1').attr('src', restrau[j]);
-        $('.kaleidoscopepage').attr('href', link[j]);
-	    $('.img2').attr('src', restrau[k]);
-        $('.rangdepage').attr('href', link[k]);
-	    $('.hotel1').html(hotel_name[j]);
+        $('.hotel1').html(hotel_name[j]);
         $('.hotel2').html(hotel_name[k]);
+        $('.img2').attr('src', restrau[k]);
+        //$('#link').attr('href', address[j]);
+	    //$('#link1').attr('href', address[k]);
+	    
     });
     
     
@@ -101,9 +101,9 @@ $(document).ready(function() {
 	    k=k-1;
 	    
 	    $('.img1').attr('src', restrau[j]);
-        $('.kaleidoscopepage').attr('href', link[j]);
+        //$('#link').attr('href', address[j]);
 	    $('.img2').attr('src', restrau[k]);
-        $('.rangdepage').attr('href', link[k]);
+        //$('#link1').attr('href', address[k]);
 	    $('.hotel1').html(hotel_name[j]);
         $('.hotel2').html(hotel_name[k]); 	
 	    	    
@@ -111,10 +111,9 @@ $(document).ready(function() {
     
     var l=0;
     var m=1;
-    var restrau_dessert = ["img/cream.jpeg","img/bikers.jpeg","img/baskin.jpeg"];
-    var hotel_name1 = ["The Biker's Cafe", "The Cream And Fudge Factory" , "Baskin Robbins"];
-    var link = ["cream.php","bikerscafe.php","baskin.php"];
-	    
+    var restrau_dessert = ["img/baskin.jpeg","img/cream.jpeg","img/bikers.jpeg"];
+    var hotel_name1 = ['<a href="baskin.php">Baskin Robbins</a>', '<a href="cream.php">The Cream and Fudge Factory</a>' , '<a href="bikerscafe.php">Bikers cafe</a>'];
+    	    
     $('.nex_').click(function () {
         if(l!=2){
             l=l+1;
