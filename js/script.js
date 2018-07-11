@@ -1,3 +1,4 @@
+
 var contents = ["Cooking Gone Wrong??","Hungry??","Movie Time??","Unexpected Guests??"];
 var i = 0;
 	
@@ -63,6 +64,7 @@ $(document).ready(function() {
     var k=1;
     var restrau = ["img/kaleidoscope.jpeg","img/rangde.jpeg","img/kasturi.jpeg","img/panasia.jpeg"];
     var hotel_name = ["Kaleidoscope", "Rang De Basanti Dhaba" , "Kasturi Restaurant" , "The Palm - Pan Asia"];
+    var link = ["kaleidoscope.php","rangde.php","kasturi.php","palmasia.php"];
 
     $('.nex').click(function () {
         
@@ -77,7 +79,9 @@ $(document).ready(function() {
 	        k=0;
 	    }    
 	    $('.img1').attr('src', restrau[j]);
+        $('.kaleidoscopepage').attr('href', link[j]);
 	    $('.img2').attr('src', restrau[k]);
+        $('.rangdepage').attr('href', link[k]);
 	    $('.hotel1').html(hotel_name[j]);
         $('.hotel2').html(hotel_name[k]);
     });
@@ -97,7 +101,9 @@ $(document).ready(function() {
 	    k=k-1;
 	    
 	    $('.img1').attr('src', restrau[j]);
+        $('.kaleidoscopepage').attr('href', link[j]);
 	    $('.img2').attr('src', restrau[k]);
+        $('.rangdepage').attr('href', link[k]);
 	    $('.hotel1').html(hotel_name[j]);
         $('.hotel2').html(hotel_name[k]); 	
 	    	    
@@ -107,7 +113,7 @@ $(document).ready(function() {
     var m=1;
     var restrau_dessert = ["img/cream.jpeg","img/bikers.jpeg","img/baskin.jpeg"];
     var hotel_name1 = ["The Biker's Cafe", "The Cream And Fudge Factory" , "Baskin Robbins"];
-    var link = ["creamandfudge.php","bikerscafe.php","baskinrobbins.php"];
+    var link = ["cream.php","bikerscafe.php","baskin.php"];
 	    
     $('.nex_').click(function () {
         if(l!=2){
@@ -122,11 +128,12 @@ $(document).ready(function() {
 	    }    
                  
         $('.img_1').attr('src', restrau_dessert[l]);
-        $('.baskinpage').attr('href', link[l]);
-        $('.img_2').attr('src', restrau_dessert[m]); 
-        $('.creampage').attr('href', link[m]);
+        $('.img_2').attr('src', restrau_dessert[m]);
         $('.hotel_1').html(hotel_name1[l]);
-        $('.hotel_2').html(hotel_name1[m]); 
+        $('.hotel_2').html(hotel_name1[m]);
+        $('.hotel_1').attr('href', link[l]);
+        $('.hotel_2').attr('href', link[m]);
+         
     });
 
     $('.prev_').click(function () {
