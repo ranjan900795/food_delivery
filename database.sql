@@ -21,12 +21,12 @@ CREATE TABLE restaurant(
 );	        
         
         
-CREATE TABLE users_orders (
+CREATE TABLE restaurant_orders (
     id INT NOT NULL AUTO_INCREMENT,
-    users_id INT NOT NULL,
+    orders_id INT NOT NULL,
     restaurant_id INT NOT NULL,
     PRIMARY KEY(id),
-    FOREIGN KEY(users_id) REFERENCES users(id),
+    FOREIGN KEY(orders_id) REFERENCES orders(id),
     FOREIGN KEY(restaurant_id) REFERENCES restaurant(id)
 ); 
 
